@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Notes app</title>
+    <link rel="icon" href="notes_icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" type="module"></script>
+  </head>
+  <body>
+    <div class="container show">
+      <div class="header">
+        <button class="menu-box">
+          <img src="menu_lines.png" class="header-icon" />
+        </button>
+        <header>Notes</header>
+        <button class="add-box">
+          <img src="add_plus.png" class="header-icon" />
+        </button>
+      </div>
+      <div class="search-box">
+        <img src="search_icon.png" class="search-icon" />
+        <input placeholder="Search" class="search-bar" />
+      </div>
+      <div class="wrapper">
+        <div class="description-wrapper">
+          <p>Found by Description</p>
+          <div class="description-list"></div>
+        </div>
+      </div>
+    </div>
+    <div class="notebox">
+      <div class="back"></div>
+      <input placeholder="Your awesome title..." />
+      <textarea placeholder="And the ideas here..."></textarea>
+    </div>
+    <div class="menu">
+      <div class="header">
+        <div class="back"></div>
+        <header>Menu</header>
+        <div class="header-icon"></div>
+      </div>
+      <div class="option" id="export-button"><p>Export</p></div>
+      <div class="option" id="import-button"><p>Import from file</p></div>
+      <div class="option" id="replace-import-button">Replace all from file</div>
+      <div class="option" id="background-color">Change Background</div>
+      <div class="popup">
+        <div class="color-picker">
+          <div class="header">
+            <div class="close-popup"></div>
+             <header> Pick a Color </header>
+            <div class="header-icon"></div>
+          </div>
+          <li>
+            <ul class="color-button" id="ffd4e3"></ul>
+            <ul class="color-button" id="eeffe6"></ul>
+            <ul class="color-button" id="d1d1ff"></ul>
+            <ul class="color-button" id="fafadc"></ul>
+            <ul class="color-button" id="e2d4ff"></ul>
+            <ul class="color-button" id="ffd4fc"></ul>
+            <ul class="color-button" id="ffedd4"></ul>
+            <ul class="color-button" id="d4feff"></ul>
+            <ul class="color-button" id="f1ffd4"></ul>
+          </li>
+        </div
+      </div>
+    </div>
+  </body>
+</html>

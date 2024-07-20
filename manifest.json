@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Notes for Chrome",
+  "description": "App for taking notes on Chrome",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {  
+    "default_title": "Open Notes",
+    "default_icon": "notes_icon.png"
+  },
+"side_panel": {
+  "default_path": "notes.html"
+},
+"permissions": [
+  "sidePanel" ]
+}
